@@ -1,0 +1,207 @@
+/* *{ */
+    /* color:cyan;  */
+ /* }  */
+h1{
+    color: blue;
+    background-color:#00FA9A;
+    /* font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; */
+    /* font-family: fantasy; */
+    font-family: cursive;
+    padding: 1%;
+    text-align: center;
+}
+h2{
+    color: #5fcffc;
+    text-align:center ;
+    font: weight 400px; ;
+    letter-spacing:  spacing 15px; 
+    /* text-decoration:underline #f78 wavy; */
+    line-height:2 ;
+}
+h3{
+    color: rgba(41, 107, 107, 0.411);
+    background-color: plum;
+    letter-spacing: 4px;
+}
+h5{
+    color: rgb(205,92,92);
+    background-color: #00FA9A;
+    text-decoration:overline;
+}
+h6{
+    color: chartreuse;
+    text-decoration: inline;
+    font-family: cursive;
+}
+button{
+    color:magenta;
+    background-color:cyan ;
+}
+/* p1{
+    background-image:url(https://tse1.mm.bing.net/th?id=OIP.IwHwhlhSp_WxksbAQ0MFagHaDt&pid=Api&P=0&w=304&h=153);
+} */
+/* p1{
+    background-image: url(https://images.unsplash.com/photo-1447752875215-b2761acb3c5d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8bmF0dXJlfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=600&q=60);
+} */
+p1{
+    /* background-image: url(https://images.unsplash.com/photo-1475924156734-496f6cac6ec1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fG5hdHVyZXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60); */
+    width: 200px;
+    height: inherit;
+}
+p3{
+    color:olive ;
+    background-color:orange ;
+    background-image: url(https://tse2.mm.bing.net/th?id=OIP.ZIo4FwK-FCvW6Dv7EcK_QgHaEo&pid=Api&P=0&w=265&h=166);
+}
+a{
+    text-decoration: none;
+    /* for not underlying the angular tag elements by default */
+}
+body{
+    /* background-color: #cc55ee; */
+
+    background-color: whitesmoke;
+}
+table{
+    border-spacing: 4px;
+    border: hotpink;
+    padding: 10px 30px;
+    color: #00FF00;
+    background-image: url(https://tse3.mm.bing.net/th?id=OIP.j056zNccKl39pJQrG2zxWQHaE6&pid=Api&P=0&w=270&h=179);
+}
+#age{
+    color:003049;
+}
+.preferences{
+    color: #4682B4;
+    background-color: goldenrod;
+}
+li a{
+    color:#7FFF00;
+}
+img{
+    width: 1000px;
+    height: 400px;
+}
+img2{
+    width: 200px;
+    height: 100px;
+}
+input +button{
+    background-color: pink;
+}
+h2+button{  
+    background-color: purple;
+    font: size 20px ;
+}
+figure >figcaption{
+background-color:darkorange;
+}
+input[type="password"]{
+    color: darkred;
+}
+article[type="h3"]{
+    color: yellow;
+}
+a[href*="Google"]{
+    background-color: turquoise;
+}
+button:hover{
+    background-color: tomato;
+    color: #00FF00;
+}
+a:hover{
+    text-decoration: overline;
+    color:#93FF14;
+}
+button:active{
+    background-color: hsla(0, 85%, 29%, 0.267);
+}
+input[type="checkbox"]:checked{
+box-shadow: 0 0 3px hotpink;
+}
+input[type="select"]:checked{
+    box-shadow:0 0 0 3px orange;
+}
+.p:nth-of-type(n){
+    background: color #dfe8bc;
+}
+input[type="radio"]:checked{
+    box-shadow:0 0 0 3px yellow;
+}
+.p3:nth-of-type(2n){
+    color:lime;
+}
+.post {
+    background-color:#00bfff;
+}
+#board{
+    display:flex ;
+    margin:0 auto ;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.square{
+    width: 100;
+    height: 100;
+    box-sizing: border-box;
+    border:1px solid black ;
+}
+h2::first-letter{
+    font-size: 50px;
+    color:red;
+}
+p3::first-line{
+    color: seagreen;
+}
+h7::selection{ /*use of pseudo elements*/
+    background-color: seagreen;
+    color: yellow;
+}
+#page{
+    width: 500px;
+    height: 30px;
+    background-color: floralwhite;
+}
+
+.btn-group{
+    display:flex ;
+    margin: 2px auto ;
+    width: 500px;
+    flex-wrap: wrap;
+}
+section {
+    width:500%;
+    height:250%;
+    /* background-image:url(https://images.unsplash.com/photo-1616593918824-4fef16054381?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80); */
+    background-size:70%;
+    margin:auto;
+    border: 2px solid;
+    color: blue;
+    background-repeat:no-repeat;
+    background-color:darkgrey;
+    text-align: center;
+
+}
+
+
+footer{
+    background: #343434;
+    color:#f7fff7;
+    text-align: center;
+}
+form{
+    background-color: bisque;
+}
+
+
+
+.project-item{
+    overflow: hidden;
+    border-bottom: 1px dashed #343434;
+    background:#00bfff ;
+    padding: 25px 0;
+}
+.projects{
+    background:#F7FFF7 ;
+}

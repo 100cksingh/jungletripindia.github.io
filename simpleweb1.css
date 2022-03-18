@@ -1,0 +1,101 @@
+/* h1,h2{
+    color:#6b8e23;
+    border: width 1px ;
+    background-color: pink;
+}
+section.about.heading{
+    color: pink;
+}
+button{
+    /* background-color: green!important; */
+    /* background-color: green!important; */
+ */*/
+/* body{
+    color:rgb(148, 172, 113);
+} */
+/* this is css inheritance */
+
+/* for zero body margin */
+/* body{
+    margin:0px;
+} */
+html{
+    font: size 20px;
+}
+h1{
+    background-color: pink;
+}
+ div{
+    width: 200px;
+    height: 200px;
+ /* background-color:#FFD700; */
+} 
+ul{
+    font-size: 1.5em;
+}
+#rems{
+font-size: 0.5rem;
+}
+#rems h2{
+    font-size: 2rem;
+}
+#rems h1{
+    font-size: 1.5rem;
+}
+span{
+    margin:4em;
+}
+#one{
+    background-color: #DAA06D;
+    border-width: 5px;
+    border-color: black;
+    border-style:  dotted inset;
+    border-radius: 20px;
+    padding: 40px;
+    margin-top:20px;
+}
+#two{
+    background-color: #E97451;
+    border-width:5px ;
+    border-color: #7B3F00;
+    border-style: double;
+    border-radius: 30%;
+    padding: 40px;
+    margin-left:50px;
+
+}
+#three{
+    background-color: #E5AA70;
+    border: width 3pz ;
+    border-style: ridge;
+    border-color: #F5DEB3;
+    border-radius: 50% 20% / 10% 40%;
+    padding: 20px;
+}
+#four{
+    border-top-left-radius: 50%;
+border: black 10px double;
+background-clip: content-box;
+background-color: darkcyan;
+padding: 60px;
+margin-top: 10px;
+}
+button{
+    padding-top: 50px;
+    padding-left:20px;
+    padding-right: 30px;
+    padding-bottom:40px;
+    background-color: darkorange;
+    border-radius: 50px;
+    }
+    img{
+        width: 40px;
+        height: 5px;
+    }
+#button2{
+    padding: 0px 20px;
+    background-color:deeppink;
+}
+*{
+    background-image: url(https://media.istockphoto.com/photos/mountains-in-hemis-national-park-ladakh-india-picture-id1297677662?k=20&m=1297677662&s=612x612&w=0&h=XiP0QrprT8v0_Kz25NTVDrnX5DxLEsPlUrpotArz1oY=);
+}

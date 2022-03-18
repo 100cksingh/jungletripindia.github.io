@@ -1,0 +1,99 @@
+*
+{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+/* background-image: url(https://media.istockphoto.com/vectors/robot-creating-young-student-workshop-cyborg-toy-vector-id1133276298?s=612x612); */
+/* background-image: url(https://images.unsplash.com/photo-1599751229070-854ae5c90869?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80);
+ */
+ /* background-image: url(https://images.unsplash.com/photo-1609488971595-a4c457ee4e12?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=464&q=80); */
+background-size: cover;
+background-position: center;
+
+font-family: sans-serif;
+
+}
+.menu-bar
+{
+    background:rgb(0,100,0);
+    text-align: center;
+}
+.menu-bar ul
+{
+    display: inline-flex;
+    list-style:none;
+    color: #fff;
+}
+.menu-bar ul li
+{
+width: 120px;
+margin: 20px;
+padding: 15px;
+}
+.menu-bar ul li a
+{
+    text-decoration: none;
+    color:#fff;
+
+}
+.active,.menu-bar ul li:hover
+{
+    background:#2bab0d;
+    border-radius: 30px;
+
+}
+.menu-bar .fa
+{
+    margin-right: 8px;
+
+}
+.sub-menu-1
+{
+    display: none;
+}
+.menu-bar ul li:hover .sub-menu-1
+{
+    display: block;
+    position: absolute;
+    background: rgb(red, green, blue);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li
+{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted #fff;
+    background: blue;
+    border-radius: 0;
+    text-align: left;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li:last-child
+{
+    border-bottom: none;
+}
+.menu-bar ul li:hover .sub-menu-1 ul li a:hover
+{
+    color:red;
+}
+.fa-angle-right
+{
+    float:right;
+
+}
+.sub-menu-2
+{
+    display: none;
+
+}
+.hover-me:hover .sub-menu-2
+{
+    position:absolute;
+    display: block;
+    margin-top: -40px;
+    margin-left: 140px;
+    background:grba(0,100,0);
+}

@@ -1,0 +1,42 @@
+body{
+    font-family:'Estonia',cursive ;
+    font-size: 30px;
+    
+}
+main{
+   width:60%;
+   margin:0 auto;
+
+}
+h1{
+    font-weight:100;
+    margin-bottom:0;
+}
+h1+h2{
+    margin-top:0;
+}
+h1,h2,h3{
+    font-family: Roboto,sans-serif;
+    font-weight: 100;
+}
+
+/* *{
+    background-image: url(https://images.unsplash.com/photo-1518895949257-7621c3c786d7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80);
+     background-repeat:round;
+     background-size: cover;
+} */
+img{
+    width: 30%;
+    margin:calc(10%/6);
+    border: 1em;
+    border-radius:50% ;
+}
+nav{
+font-family:'Raleway',sans-serif;
+font-size: 0.5em;
+text-transform: uppercase;
+border-bottom:2px solid #eee;
+width:30%;
+margin-left: calc(10%/6);
+padding: 1.2em 0;
+}

@@ -1,0 +1,51 @@
+*{
+    background-image: url(https://media.istockphoto.com/photos/aerial-view-of-the-tropical-island-picture-id999086864?k=20&m=999086864&s=612x612&w=0&h=6h_0vpedu4_ngH3VMyBZ1HPDHov2xU-L3NV76CDpwro=);
+}
+section  div{
+    height: 100px;
+    width: 100px;
+    background-color: mediumslateblue;
+    margin: 20px 0;
+    transition: margin-left 3s;
+
+}
+section:hover div{
+    margin-left: 300px;
+}
+div:nth-of-type(1){
+transition-timing-function: ease-in;
+}
+div:nth-of-type(2){
+    transition-timing-function:ease-out;
+}
+div:nth-of-type(3){
+    transition-timing-function:cubic-bezier(0.7,0,0.84,0);
+}
+div:nth-of-type(4){
+ transition-timing-function:cubic-bezier(0.85,0,0.15,1);
+}
+.circle{
+    width: 100px;
+    height: 100px;
+    background-color: magenta;
+    transition: background-color 1s ease-in,border-radius 2s;
+    /* background-image: url(https://media.istockphoto.com/photos/concept-nature-reserve-conserve-wildlife-reserve-tiger-deer-global-picture-id1197795305?k=20&m=1197795305&s=612x612&w=0&h=2j_ZJabh9bbXTynZ5H90FHNletO1VJ4p3v5OJqR-cL4=);
+    /* background-image: url(https://media.istockphoto.com/photos/fruit-bats-in-sri-lanka-picture-id1204633896?k=20&m=1204633896&s=612x612&w=0&h=rAvk_3xsXc71ujskuzT0amSd9xIp4aTL9QMX5NuRue4=); */ 
+}
+.circle:hover{
+    background-color: cyan;
+    border-radius: 50%;
+}
+.block {
+    width: 500px;
+    height: 500px;
+       background-image: url(https://media.istockphoto.com/vectors/design-banner-with-spring-is-here-icon-card-for-spring-season-with-vector-id663928230?k=20&m=663928230&s=612x612&w=0&h=jEBC-E7TlQxahCO-F8tykRAjb8Y4JEOIxNNC6RVDqd0=);
+    background-color: deeppink;
+	transition: transform 0.6s cubic-bezier(0.65, 0, 0.35, 1);
+    /* background-image: url(https://media.istockphoto.com/vectors/flying-little-bird-tree-sparrow-vector-illustration-vector-id1334108997?k=20&m=1334108997&s=612x612&w=0&h=mnS5x6RIEXYKTfVNw-F7ju2UnzG9Y_alUSU2hOuNim4=); */
+}
+.backimage{
+    background-image: url(https://media.istockphoto.com/photos/gardening-concept-garden-flowers-and-plants-on-a-sunny-background-picture-id1211992469?k=20&m=1211992469&s=612x612&w=0&h=gHWu4nuF9rdyUQZ6D_iaBrQN_hquwTKIg_tADTp1_RI=);
+    width: 1000px;
+    height: 500px;
+}
